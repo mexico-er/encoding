@@ -7,7 +7,7 @@
 #include <ctype.h>
 
 char *url_encode(const char *str);
-char *hex_encode(const char *input);
+char *hex_encode(const char *str);
 
 char *url_decode(const char *str);
 char *hex_decode(const char *str);
